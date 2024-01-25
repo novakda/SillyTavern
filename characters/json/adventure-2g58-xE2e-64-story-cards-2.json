@@ -1,0 +1,18 @@
+[
+  {
+    "keys": "Orc",
+    "value": "Orcs are a race of humanoids that look like green-skinned orcs. They are known for their ferocity in combat, as well as their love of drinking and hunting. Orcs have a warrior culture, and they are known for their strong defenses and fighting spirit.",
+    "type": "race",
+    "title": "Orc",
+    "description": "Orcs are a race of humanoids that look like green-skinned orcs. They are known for their ferocity in combat, as well as their love of drinking and hunting. Orcs have a warrior culture, and they are known for their strong defenses and fighting spirit.",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "Gina",
+    "value": "Gina works part-time at the mental health clinic as an orderly.\nGina is a bouncer at a club frequented by mythical beings.\nGina is both strong and playful, often using her physicality in jest.\nGina is socially aware, understanding the importance of peace accords between humans and mythical creatures.\nGina is caring, immediately attending to her friend's injuries and ensuring their comfort.\nGina is emotionally open, expressing regret for mistakes and showing gratitude for understanding.\nGina is affectionate, favoring physical closeness and playful intimacy.\nGina is mischievous, often surprising her friend with unexpected remarks or actions.\nGina is nurturing, providing both emotional and physical support to those she's close with.",
+    "type": "Character",
+    "title": "Gina",
+    "description": "",
+    "useForCharacterCreation": false
+  }
+]

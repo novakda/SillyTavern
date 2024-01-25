@@ -1,0 +1,526 @@
+{
+  "lorebookVersion": 5,
+  "entries": [
+    {
+      "text": "",
+      "contextConfig": {
+        "prefix": "",
+        "suffix": "\n",
+        "tokenBudget": 1,
+        "reservedTokens": 0,
+        "budgetPriority": 400,
+        "trimDirection": "trimBottom",
+        "insertionType": "newline",
+        "maximumTrimType": "sentence",
+        "insertionPosition": -1
+      },
+      "lastUpdatedAt": 1691224285871,
+      "displayName": "Sentence Length Control",
+      "id": "0f2fbef4-6d6d-49bb-a62a-7f7e43089753",
+      "keys": [],
+      "searchRange": 1000,
+      "enabled": true,
+      "forceActivation": true,
+      "keyRelative": false,
+      "nonStoryActivatable": false,
+      "category": "d4a50a3c-7a5a-4d27-9990-4725a2abd375",
+      "loreBiasGroups": [
+        {
+          "phrases": [
+            {
+              "sequences": [],
+              "sequence": ".",
+              "type": 2
+            }
+          ],
+          "ensureSequenceFinish": false,
+          "generateOnce": false,
+          "bias": -0.01,
+          "enabled": true,
+          "whenInactive": false
+        }
+      ]
+    },
+    {
+      "text": "",
+      "contextConfig": {
+        "prefix": "",
+        "suffix": "\n",
+        "tokenBudget": 1,
+        "reservedTokens": 0,
+        "budgetPriority": 400,
+        "trimDirection": "trimBottom",
+        "insertionType": "newline",
+        "maximumTrimType": "sentence",
+        "insertionPosition": -1
+      },
+      "lastUpdatedAt": 1691224279015,
+      "displayName": "Paragraph Length Control",
+      "id": "8e825ebf-73bc-4ae9-98b7-a836a1f0f4a4",
+      "keys": [],
+      "searchRange": 1000,
+      "enabled": true,
+      "forceActivation": true,
+      "keyRelative": false,
+      "nonStoryActivatable": false,
+      "category": "d4a50a3c-7a5a-4d27-9990-4725a2abd375",
+      "loreBiasGroups": [
+        {
+          "phrases": [
+            {
+              "sequences": [],
+              "sequence": "\n",
+              "type": 2
+            }
+          ],
+          "ensureSequenceFinish": false,
+          "generateOnce": false,
+          "bias": -0.01,
+          "enabled": true,
+          "whenInactive": false
+        }
+      ]
+    },
+    {
+      "text": "",
+      "contextConfig": {
+        "prefix": "",
+        "suffix": "\n",
+        "tokenBudget": 1,
+        "reservedTokens": 0,
+        "budgetPriority": 400,
+        "trimDirection": "trimBottom",
+        "insertionType": "newline",
+        "maximumTrimType": "sentence",
+        "insertionPosition": -1
+      },
+      "lastUpdatedAt": 1691224269919,
+      "displayName": "Passive Verb Control",
+      "id": "5cc51618-4d52-4401-bb77-78189ea9ca26",
+      "keys": [],
+      "searchRange": 1000,
+      "enabled": true,
+      "forceActivation": true,
+      "keyRelative": false,
+      "nonStoryActivatable": false,
+      "category": "d4a50a3c-7a5a-4d27-9990-4725a2abd375",
+      "loreBiasGroups": [
+        {
+          "phrases": [
+            {
+              "sequences": [],
+              "sequence": "am",
+              "type": 2
+            },
+            {
+              "sequences": [],
+              "sequence": "is",
+              "type": 2
+            },
+            {
+              "sequences": [],
+              "sequence": "are",
+              "type": 2
+            },
+            {
+              "sequences": [],
+              "sequence": "was",
+              "type": 2
+            },
+            {
+              "sequences": [],
+              "sequence": "were",
+              "type": 2
+            },
+            {
+              "sequences": [],
+              "sequence": "be",
+              "type": 2
+            },
+            {
+              "sequences": [],
+              "sequence": "being",
+              "type": 2
+            },
+            {
+              "sequences": [],
+              "sequence": "been",
+              "type": 2
+            }
+          ],
+          "ensureSequenceFinish": false,
+          "generateOnce": false,
+          "bias": -0.01,
+          "enabled": true,
+          "whenInactive": false
+        }
+      ]
+    },
+    {
+      "text": "",
+      "contextConfig": {
+        "prefix": "",
+        "suffix": "\n",
+        "tokenBudget": 1,
+        "reservedTokens": 0,
+        "budgetPriority": 400,
+        "trimDirection": "trimBottom",
+        "insertionType": "newline",
+        "maximumTrimType": "sentence",
+        "insertionPosition": -1
+      },
+      "lastUpdatedAt": 1691224263535,
+      "displayName": "Dialogue Control",
+      "id": "5e848898-299c-41f9-ac61-94d7a909858a",
+      "keys": [],
+      "searchRange": 1000,
+      "enabled": true,
+      "forceActivation": true,
+      "keyRelative": false,
+      "nonStoryActivatable": false,
+      "category": "d4a50a3c-7a5a-4d27-9990-4725a2abd375",
+      "loreBiasGroups": [
+        {
+          "phrases": [
+            {
+              "sequences": [],
+              "sequence": "\"",
+              "type": 2
+            }
+          ],
+          "ensureSequenceFinish": false,
+          "generateOnce": false,
+          "bias": -0.01,
+          "enabled": true,
+          "whenInactive": false
+        }
+      ]
+    },
+    {
+      "text": "",
+      "contextConfig": {
+        "prefix": "",
+        "suffix": "\n",
+        "tokenBudget": 1,
+        "reservedTokens": 0,
+        "budgetPriority": 400,
+        "trimDirection": "trimBottom",
+        "insertionType": "newline",
+        "maximumTrimType": "sentence",
+        "insertionPosition": -1
+      },
+      "lastUpdatedAt": 1691225027105,
+      "displayName": "Glue Control",
+      "id": "bcc97ae5-9c39-4f66-855b-f15c46369d90",
+      "keys": [],
+      "searchRange": 1000,
+      "enabled": true,
+      "forceActivation": false,
+      "keyRelative": false,
+      "nonStoryActivatable": false,
+      "category": "d4a50a3c-7a5a-4d27-9990-4725a2abd375",
+      "loreBiasGroups": [
+        {
+          "phrases": [
+            {
+              "sequences": [],
+              "sequence": "a",
+              "type": 2
+            },
+            {
+              "sequences": [],
+              "sequence": "and",
+              "type": 2
+            },
+            {
+              "sequences": [],
+              "sequence": "but",
+              "type": 2
+            },
+            {
+              "sequences": [],
+              "sequence": "by",
+              "type": 2
+            },
+            {
+              "sequences": [],
+              "sequence": "even",
+              "type": 2
+            },
+            {
+              "sequences": [],
+              "sequence": "every",
+              "type": 2
+            },
+            {
+              "sequences": [],
+              "sequence": "for",
+              "type": 2
+            },
+            {
+              "sequences": [],
+              "sequence": "from",
+              "type": 2
+            },
+            {
+              "sequences": [],
+              "sequence": "get",
+              "type": 2
+            },
+            {
+              "sequences": [],
+              "sequence": "go",
+              "type": 2
+            },
+            {
+              "sequences": [],
+              "sequence": "have",
+              "type": 2
+            },
+            {
+              "sequences": [],
+              "sequence": "if",
+              "type": 2
+            },
+            {
+              "sequences": [],
+              "sequence": "in",
+              "type": 2
+            },
+            {
+              "sequences": [],
+              "sequence": "into",
+              "type": 2
+            },
+            {
+              "sequences": [],
+              "sequence": "it",
+              "type": 2
+            },
+            {
+              "sequences": [],
+              "sequence": "just",
+              "type": 2
+            },
+            {
+              "sequences": [],
+              "sequence": "like",
+              "type": 2
+            },
+            {
+              "sequences": [],
+              "sequence": "literally",
+              "type": 2
+            },
+            {
+              "sequences": [],
+              "sequence": "make",
+              "type": 2
+            },
+            {
+              "sequences": [],
+              "sequence": "much",
+              "type": 2
+            },
+            {
+              "sequences": [],
+              "sequence": "of",
+              "type": 2
+            },
+            {
+              "sequences": [],
+              "sequence": "on",
+              "type": 2
+            },
+            {
+              "sequences": [],
+              "sequence": "really",
+              "type": 2
+            },
+            {
+              "sequences": [],
+              "sequence": "said",
+              "type": 2
+            },
+            {
+              "sequences": [],
+              "sequence": "should",
+              "type": 2
+            },
+            {
+              "sequences": [],
+              "sequence": "some",
+              "type": 2
+            },
+            {
+              "sequences": [],
+              "sequence": "that",
+              "type": 2
+            },
+            {
+              "sequences": [],
+              "sequence": "the",
+              "type": 2
+            },
+            {
+              "sequences": [],
+              "sequence": "then",
+              "type": 2
+            },
+            {
+              "sequences": [],
+              "sequence": "there",
+              "type": 2
+            },
+            {
+              "sequences": [],
+              "sequence": "therefore",
+              "type": 2
+            },
+            {
+              "sequences": [],
+              "sequence": "think",
+              "type": 2
+            },
+            {
+              "sequences": [],
+              "sequence": "this",
+              "type": 2
+            },
+            {
+              "sequences": [],
+              "sequence": "to",
+              "type": 2
+            },
+            {
+              "sequences": [],
+              "sequence": "until",
+              "type": 2
+            },
+            {
+              "sequences": [],
+              "sequence": "very",
+              "type": 2
+            },
+            {
+              "sequences": [],
+              "sequence": "well",
+              "type": 2
+            },
+            {
+              "sequences": [],
+              "sequence": "what",
+              "type": 2
+            },
+            {
+              "sequences": [],
+              "sequence": "will",
+              "type": 2
+            },
+            {
+              "sequences": [],
+              "sequence": "with",
+              "type": 2
+            }
+          ],
+          "ensureSequenceFinish": false,
+          "generateOnce": true,
+          "bias": -0.01,
+          "enabled": true,
+          "whenInactive": false
+        }
+      ]
+    }
+  ],
+  "settings": {
+    "orderByKeyLocations": false
+  },
+  "categories": [
+    {
+      "name": "Style Guide for Kayra",
+      "id": "d4a50a3c-7a5a-4d27-9990-4725a2abd375",
+      "enabled": true,
+      "createSubcontext": false,
+      "subcontextSettings": {
+        "text": "",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1691225790294,
+        "displayName": "New Lorebook Entry",
+        "id": "7418aa7b-ef61-4853-a7d7-3eccee25a303",
+        "keys": [],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      "useCategoryDefaults": false,
+      "categoryDefaults": {
+        "text": "",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1691222759276,
+        "displayName": "New Lorebook Entry",
+        "id": "f6d697b6-6291-4224-a074-0e894ad68510",
+        "keys": [],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      "categoryBiasGroups": [
+        {
+          "phrases": [],
+          "ensureSequenceFinish": false,
+          "generateOnce": true,
+          "bias": 0,
+          "enabled": true,
+          "whenInactive": false
+        }
+      ],
+      "open": true
+    }
+  ]
+}

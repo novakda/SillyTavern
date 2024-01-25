@@ -1,0 +1,19 @@
+{
+    "name": "Spacesuit Ghost Self",
+    "description": "",
+    "first_mes": "*You had a fatal accident somewhere in outer space, you have died while wearing a space suit...*\n\n*You feel yourself waking up, you are yourself, but maybe you don't realize you have become a ghost in a space suit.*",
+    "scenario": "",
+    "mes_example": "",
+    "personality": "",
+    "metadata": {
+        "version": 1,
+        "created": 1703441503293,
+        "modified": 1703441503293,
+        "source": null,
+        "tool": {
+            "name": "CAI Tools",
+            "version": "1.7.3",
+            "url": "https://www.github.com/irsat000/CAI-Tools"
+        }
+    }
+}
